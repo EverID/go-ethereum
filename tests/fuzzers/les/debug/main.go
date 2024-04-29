@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/tests/fuzzers/les"
+	"github.com/EverID/go-ethereum/tests/fuzzers/les"
 )
 
 func main() {

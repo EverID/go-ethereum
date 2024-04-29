@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/core/rawdb"
+	"github.com/EverID/go-ethereum/crypto"
 )
 
 func TestStackTrieInsertAndHash(t *testing.T) {

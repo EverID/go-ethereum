@@ -26,10 +26,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/common/math"
+	"github.com/EverID/go-ethereum/core/types"
+	"github.com/EverID/go-ethereum/params"
 )
 
 type diffTest struct {
