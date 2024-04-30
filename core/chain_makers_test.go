@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/consensus/beacon"
-	"github.com/EverID/go-ethereum/consensus/ethash"
-	"github.com/EverID/go-ethereum/core/rawdb"
-	"github.com/EverID/go-ethereum/core/types"
-	"github.com/EverID/go-ethereum/core/vm"
-	"github.com/EverID/go-ethereum/crypto"
-	"github.com/EverID/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/beacon"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestGenerateWithdrawalChain(t *testing.T) {

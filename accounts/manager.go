@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

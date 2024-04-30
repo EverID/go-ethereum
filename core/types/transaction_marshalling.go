@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/holiman/uint256"
 )
 

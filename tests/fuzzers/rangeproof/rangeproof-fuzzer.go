@@ -23,10 +23,10 @@ import (
 	"io"
 	"sort"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/rawdb"
-	"github.com/EverID/go-ethereum/ethdb/memorydb"
-	"github.com/EverID/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 type kv struct {

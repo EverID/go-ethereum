@@ -28,12 +28,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EverID/go-ethereum/common/mclock"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/p2p/discover/v5wire"
-	"github.com/EverID/go-ethereum/p2p/enode"
-	"github.com/EverID/go-ethereum/p2p/enr"
-	"github.com/EverID/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
 )
 
 const (

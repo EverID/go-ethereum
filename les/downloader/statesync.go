@@ -21,13 +21,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/rawdb"
-	"github.com/EverID/go-ethereum/core/state"
-	"github.com/EverID/go-ethereum/crypto"
-	"github.com/EverID/go-ethereum/ethdb"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/trie"
 	"golang.org/x/crypto/sha3"
 )
 

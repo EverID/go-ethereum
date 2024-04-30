@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/rawdb"
-	"github.com/EverID/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func newEmptySecure() *StateTrie {

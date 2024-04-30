@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/common/mclock"
-	"github.com/EverID/go-ethereum/core/txpool"
-	"github.com/EverID/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/core/txpool"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 var (

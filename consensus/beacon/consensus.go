@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/consensus"
-	"github.com/EverID/go-ethereum/consensus/misc"
-	"github.com/EverID/go-ethereum/core/state"
-	"github.com/EverID/go-ethereum/core/types"
-	"github.com/EverID/go-ethereum/params"
-	"github.com/EverID/go-ethereum/rpc"
-	"github.com/EverID/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/consensus/misc"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.

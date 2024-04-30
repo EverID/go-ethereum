@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/state"
-	"github.com/EverID/go-ethereum/core/vm"
-	"github.com/EverID/go-ethereum/eth/tracers/logger"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/tests"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/eth/tracers/logger"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/tests"
 	"github.com/urfave/cli/v2"
 )
 

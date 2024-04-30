@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/EverID/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 const (

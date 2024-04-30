@@ -22,12 +22,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/common/math"
-	"github.com/EverID/go-ethereum/core/rawdb"
-	"github.com/EverID/go-ethereum/ethdb"
-	"github.com/EverID/go-ethereum/ethdb/memorydb"
-	"github.com/EverID/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

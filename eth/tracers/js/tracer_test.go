@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/state"
-	"github.com/EverID/go-ethereum/core/vm"
-	"github.com/EverID/go-ethereum/eth/tracers"
-	"github.com/EverID/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 type account struct{}

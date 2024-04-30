@@ -17,7 +17,7 @@
 package server
 
 import (
-	"github.com/EverID/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

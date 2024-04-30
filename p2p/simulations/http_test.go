@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/EverID/go-ethereum/event"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/node"
-	"github.com/EverID/go-ethereum/p2p"
-	"github.com/EverID/go-ethereum/p2p/enode"
-	"github.com/EverID/go-ethereum/p2p/simulations/adapters"
-	"github.com/EverID/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 )
 

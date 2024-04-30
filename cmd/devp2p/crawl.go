@@ -21,8 +21,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 type crawler struct {

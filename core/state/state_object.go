@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/types"
-	"github.com/EverID/go-ethereum/crypto"
-	"github.com/EverID/go-ethereum/metrics"
-	"github.com/EverID/go-ethereum/rlp"
-	"github.com/EverID/go-ethereum/trie"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum/trie"
 )
 
 type Code []byte

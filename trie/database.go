@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/core/rawdb"
-	"github.com/EverID/go-ethereum/core/types"
-	"github.com/EverID/go-ethereum/ethdb"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/metrics"
-	"github.com/EverID/go-ethereum/rlp"
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var (

@@ -29,11 +29,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EverID/go-ethereum/crypto"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/p2p/discover/v4wire"
-	"github.com/EverID/go-ethereum/p2p/enode"
-	"github.com/EverID/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
 )
 
 // Errors

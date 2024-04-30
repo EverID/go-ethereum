@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/EverID/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // LookupInstructionSet returns the instructionset for the fork configured by

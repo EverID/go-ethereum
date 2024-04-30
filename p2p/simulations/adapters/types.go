@@ -25,14 +25,14 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/EverID/go-ethereum/crypto"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/node"
-	"github.com/EverID/go-ethereum/p2p"
-	"github.com/EverID/go-ethereum/p2p/enode"
-	"github.com/EverID/go-ethereum/p2p/enr"
-	"github.com/EverID/go-ethereum/rpc"
 	"github.com/docker/docker/pkg/reexec"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
 )
 

@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/EverID/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestCalcBlobFee(t *testing.T) {

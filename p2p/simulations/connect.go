@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/EverID/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 var (

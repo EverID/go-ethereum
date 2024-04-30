@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EverID/go-ethereum/core/types"
-	"github.com/EverID/go-ethereum/eth"
-	"github.com/EverID/go-ethereum/eth/downloader"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/go-ethereum/eth/downloader"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Geth to perform full sync

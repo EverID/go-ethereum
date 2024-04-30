@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/EverID/go-ethereum/common"
-	"github.com/EverID/go-ethereum/log"
-	"github.com/EverID/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (
