@@ -24,12 +24,12 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/core/rawdb"
+	"github.com/EverID/go-ethereum/core/state"
+	"github.com/EverID/go-ethereum/crypto"
+	"github.com/EverID/go-ethereum/trie"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

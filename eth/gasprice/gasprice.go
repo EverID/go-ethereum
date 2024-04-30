@@ -22,14 +22,14 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/common/lru"
+	"github.com/EverID/go-ethereum/core"
+	"github.com/EverID/go-ethereum/core/types"
+	"github.com/EverID/go-ethereum/event"
+	"github.com/EverID/go-ethereum/log"
+	"github.com/EverID/go-ethereum/params"
+	"github.com/EverID/go-ethereum/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

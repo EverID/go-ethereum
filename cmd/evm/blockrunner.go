@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/EverID/go-ethereum/log"
+	"github.com/EverID/go-ethereum/tests"
 	"github.com/urfave/cli/v2"
 )
 

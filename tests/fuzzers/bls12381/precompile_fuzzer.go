@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/core/vm"
 )
 
 const (

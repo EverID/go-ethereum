@@ -21,11 +21,11 @@ import (
 	"math/rand"
 	"sync"
 
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/core/types"
+	"github.com/EverID/go-ethereum/p2p"
+	"github.com/EverID/go-ethereum/rlp"
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

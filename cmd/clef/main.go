@@ -34,25 +34,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/rules"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/EverID/go-ethereum/accounts"
+	"github.com/EverID/go-ethereum/accounts/keystore"
+	"github.com/EverID/go-ethereum/cmd/utils"
+	"github.com/EverID/go-ethereum/common"
+	"github.com/EverID/go-ethereum/common/hexutil"
+	"github.com/EverID/go-ethereum/core/types"
+	"github.com/EverID/go-ethereum/crypto"
+	"github.com/EverID/go-ethereum/internal/ethapi"
+	"github.com/EverID/go-ethereum/internal/flags"
+	"github.com/EverID/go-ethereum/log"
+	"github.com/EverID/go-ethereum/node"
+	"github.com/EverID/go-ethereum/params"
+	"github.com/EverID/go-ethereum/rlp"
+	"github.com/EverID/go-ethereum/rpc"
+	"github.com/EverID/go-ethereum/signer/core"
+	"github.com/EverID/go-ethereum/signer/core/apitypes"
+	"github.com/EverID/go-ethereum/signer/fourbyte"
+	"github.com/EverID/go-ethereum/signer/rules"
+	"github.com/EverID/go-ethereum/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -868,7 +868,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ethereum/go-ethereum/issues/20123
+	// https://github.com/EverID/go-ethereum/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}
