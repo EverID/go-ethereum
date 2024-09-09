@@ -403,10 +403,10 @@ func (b *SimulatedBackend) PendingCodeAt(ctx context.Context, contract common.Ad
 }
 
 func newRevertError(result *core.ExecutionResult) *revertError {
+	err := vm.ErrExecutionReverted
 	reason, errUnpack := abi.UnpackRevert(result.Revert())
-	err := errors.New("execution reverted")
 	if errUnpack == nil {
-		err = fmt.Errorf("execution reverted: %v", reason)
+		err = fmt.Errorf("%w: %v", vm.ErrExecutionReverted, reason)
 	}
 	return &revertError{
 		error:  err,
